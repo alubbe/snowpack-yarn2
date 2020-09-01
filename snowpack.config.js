@@ -12,7 +12,6 @@ module.exports = {
     baseUrl: `${process.env.PUBLIC_URL}/`,
   },
   installOptions: {
-    // sourceMap: false,
     rollup: {
       plugins: [nodePolyfills(), commonjs()] // nodePolyfills must be before commonjs or we get an infinite recursion
     }
