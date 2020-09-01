@@ -9948,7 +9948,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/component-classes-npm-1.2.6-fc526f926e-4a493ed672.zip/node_modules/component-classes/",
           "packageDependencies": [
             ["component-classes", "npm:1.2.6"],
-            ["component-indexof", "npm:0.0.3"]
+            ["component-indexof", "npm:0.0.3"],
+            ["indexof", "npm:0.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -15407,6 +15408,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/indexes-of-npm-1.0.1-5ce8500941-e1c232a326.zip/node_modules/indexes-of/",
           "packageDependencies": [
             ["indexes-of", "npm:1.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["indexof", [
+        ["npm:0.0.1", {
+          "packageLocation": "./.yarn/cache/indexof-npm-0.0.1-b35b810950-23dd379c2d.zip/node_modules/indexof/",
+          "packageDependencies": [
+            ["indexof", "npm:0.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -22586,6 +22596,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-base16-styling-npm-0.5.3-0e2cb0b312-4eca49f0e2.zip/node_modules/react-base16-styling/",
           "packageDependencies": [
             ["react-base16-styling", "npm:0.5.3"],
+            ["babel-runtime", "npm:6.26.0"],
             ["base16", "npm:1.0.0"],
             ["lodash.curry", "npm:4.1.1"],
             ["lodash.flow", "npm:3.5.0"],
@@ -22597,6 +22608,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-base16-styling-npm-0.6.0-4a325c7d7b-3f0f6105e6.zip/node_modules/react-base16-styling/",
           "packageDependencies": [
             ["react-base16-styling", "npm:0.6.0"],
+            ["babel-runtime", "npm:6.26.0"],
             ["base16", "npm:1.0.0"],
             ["lodash.curry", "npm:4.1.1"],
             ["lodash.flow", "npm:3.5.0"],
