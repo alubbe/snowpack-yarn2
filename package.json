@@ -133,7 +133,7 @@
     "storybook-react-router": "^1.0.8",
     "tinycolor2": "^1.4.1",
     "url-join": "^4.0.1",
-    "xmldom": "^0.1.22"
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.1",
